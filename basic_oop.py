@@ -40,3 +40,12 @@ moopz.getDetails()
 moopz.age = 88  # this also works
 
 moopz.getDetails()
+
+# Checking if the specified obj(arg0) is an instance of the provided Class(arg1)
+print(isinstance(moopz, Person))
+
+# checking all available method(s) to the Class of the provided object
+print(dir(moopz))
+
+# checking the Class of the provided object
+print(moopz.__class__)
